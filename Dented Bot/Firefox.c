@@ -15,6 +15,8 @@ int My_PR_Write(void *id, char *buf, int len)
 void HookFirefox()
 {
 
+// to avoid using MH use VirtualAllocEx and make CALL / JMP calls... I hate inline assembly and hooks can be bad and crash browser so i just 
+//use min hook lol. 
 	MH_Initialize();
 
 	MH_CreateHookApi(L"nspr4.dll", "PR_Write", My_PR_Write, (LPVOID *)&Real_PR_Write);
