@@ -8,7 +8,7 @@ int(*Real_PR_Write)(void *id, char *buf, int len) = 0;
 
 int My_PR_Write(void *id, char *buf, int len)
 {
-	ProcessHeader(buf, len, NULL, 0);
+	HeaderPrase(buf, len, NULL, 0);
 	return Real_PR_Write(id, buf, len);
 }
 
